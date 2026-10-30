@@ -1,0 +1,20 @@
+это корневой конфиг проекта
+root = true
+
+#Правила для всех файлов (*)
+[*]
+charset = utf-8
+#Использовать пробелы для отступов
+indent_style = space
+#Размер отступа 4 пробела
+indent_size = 4
+#Тип переноса строки - LF
+end_of_line = lf
+#Удалять пробелы в конце строк
+trim_tralling_whitespace = true
+#Добавить пустую строку в конце файла
+insert_final_newline = true
+
+#Особые правила для файлов разметки
+[*.{yml, yaml, json, html}]
+indent_size = 2
