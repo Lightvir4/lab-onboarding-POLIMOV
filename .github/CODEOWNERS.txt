@@ -3,4 +3,4 @@
 * @byblikgyrador
 
 # Файлы конфигурации требуют особого внимания
-/config.py @byblikgyrador
+/config.py @litvir4
