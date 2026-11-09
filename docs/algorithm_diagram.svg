@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8z"/></marker></defs>
+  <style>text{font-family:Arial,sans-serif;font-size:18px;fill:#111}.small{font-size:15px}.box{fill:#eef5ff;stroke:#1d4e89;stroke-width:2}.decision{fill:#fff8dc;stroke:#936f00;stroke-width:2}.line{stroke:#333;stroke-width:2;fill:none;marker-end:url(#a)}</style>
+  <text x="600" y="32" text-anchor="middle" font-weight="bold">Activity diagram: calc_bonus</text>
+  <circle cx="600" cy="70" r="12" fill="#111"/><path class="line" d="M600 82V115"/>
+  <rect class="box" x="485" y="115" width="230" height="50" rx="16"/><text x="600" y="146" text-anchor="middle">res = 0</text><path class="line" d="M600 165V205"/>
+  <path class="decision" d="M600 205 L720 265 L600 325 L480 265 Z"/><text x="600" y="270" text-anchor="middle">x &gt; 1000?</text>
+  <text class="small" x="730" y="245">Да</text><path class="line" d="M720 265H900V335"/>
+  <rect class="box" x="805" y="335" width="190" height="50" rx="16"/><text x="900" y="366" text-anchor="middle">i = 0</text><path class="line" d="M900 385V425"/>
+  <path class="decision" d="M900 425 L1010 480 L900 535 L790 480 Z"/><text x="900" y="485" text-anchor="middle">i &lt; y?</text><text class="small" x="1016" y="463">Нет</text><path class="line" d="M900 535V630H600"/>
+  <text class="small" x="455" y="245">Нет</text><path class="line" d="M480 265H300V335"/>
+  <path class="decision" d="M300 335 L410 390 L300 445 L190 390 Z"/><text x="300" y="395" text-anchor="middle">y &gt; 10?</text>
+  <path class="line" d="M190 390H100V525"/><text class="small" x="112" y="378">Нет</text><rect class="box" x="35" y="525" width="190" height="50" rx="16"/><text x="130" y="556" text-anchor="middle">res = x*y*0.01</text><path class="line" d="M130 575V630H600"/>
+  <path class="line" d="M410 390H500V525"/><text class="small" x="462" y="378">Да</text><rect class="box" x="405" y="525" width="190" height="50" rx="16"/><text x="500" y="556" text-anchor="middle">res = x*y*0.02</text><path class="line" d="M500 575V630H600"/>
+  <path class="decision" d="M900 535 L1010 590 L900 645 L790 590 Z"/><text x="900" y="595" text-anchor="middle">z category</text><path class="line" d="M790 590H700V700"/><path class="line" d="M900 645V700"/><path class="line" d="M1010 590H1100V700"/>
+  <text class="small" x="705" y="580">1</text><text class="small" x="910" y="662">2</text><text class="small" x="1070" y="580">other</text>
+  <rect class="box" x="625" y="700" width="150" height="50" rx="16"/><text x="700" y="731" text-anchor="middle">res += x*0.15</text><rect class="box" x="825" y="700" width="150" height="50" rx="16"/><text x="900" y="731" text-anchor="middle">res += x*0.10</text><rect class="box" x="1025" y="700" width="150" height="50" rx="16"/><text x="1100" y="731" text-anchor="middle">res += x*0.05</text>
+  <path class="line" d="M700 750V795H900"/><path class="line" d="M900 750V795"/><path class="line" d="M1100 750V795H900"/><rect class="box" x="825" y="795" width="150" height="45" rx="14"/><text x="900" y="823" text-anchor="middle">i = i + 1</text><path class="line" d="M975 817H1045V480H1010"/>
+  <rect class="box" x="505" y="630" width="190" height="50" rx="16"/><text x="600" y="661" text-anchor="middle">return res</text><path class="line" d="M600 680V835"/><circle cx="600" cy="860" r="16" fill="white" stroke="#111" stroke-width="3"/><circle cx="600" cy="860" r="10" fill="#111"/>
+</svg>

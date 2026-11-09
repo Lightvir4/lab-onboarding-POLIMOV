@@ -1,0 +1,5 @@
+# Default ownership for the laboratory repository
+* @Lightvir4
+
+# Configuration changes need explicit owner review
+/config.py @Lightvir4
