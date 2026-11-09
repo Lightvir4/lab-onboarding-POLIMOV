@@ -33,7 +33,9 @@
 
 ### 5.1 Анализ алгоритма
 
-Диаграмма алгоритма бонусов: ![UML activity diagram](docs/algorithm_diagram.svg)
+Диаграмма алгоритма бонусов: ![UML activity diagram](docs/algorithm_diagram.png)
+
+Диаграмма активности для алгоритма расчёта корзины: ![UML activity diagram](docs/uml_diagram.png)
 
 Code smells legacy-кода: магические числа, невыразительные имена параметров и глубокая вложенность.
 
