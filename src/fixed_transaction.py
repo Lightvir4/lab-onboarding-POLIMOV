@@ -17,7 +17,7 @@ def process_transaction(user_id, amount, db_connection):
 
 
 def get_balance(user_id, db_connection):
-    """Возвращает баланс через подключение; выделено для тестируемости примера."""
+    """Возвращает баланс через подключение для тестируемости примера."""
     return db_connection.get_balance(user_id)
 
 
