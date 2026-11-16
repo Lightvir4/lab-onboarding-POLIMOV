@@ -4,11 +4,6 @@ set correct=0
 set points=0
 set total=3
 
-echo ==================================================
-echo   МОДУЛЬ 2: ИНСПЕКЦИЯ КОДА (ОБЛАЧНАЯ ИНФРАСТРУКТУРА)
-echo ==================================================
-echo.
-
 echo Фрагмент 1 (Загрузка файлов MVP в S3 Object Storage):
 echo 10: def upload_avatar(s3_client, file_path, user_id):
 echo 11:     bucket = "mvp-prod-avatars"
@@ -80,7 +75,7 @@ if errorlevel==3 (
 )
 echo.
 
-echo === Итоговый отчёт ревьюера ===
+echo  Итоговый отчёт ревьюера 
 echo Просмотрено фрагментов: %total%
 echo Правильных ответов:     %correct% из %total%
 echo Набрано баллов:         %points%
