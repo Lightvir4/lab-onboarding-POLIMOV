@@ -4,10 +4,6 @@ set score_yc=0
 set score_selectel=0
 set score_timeweb=0
 
-echo ==================================================
-echo   МОДУЛЬ 1: ВЫБОР ОБЛАЧНОЙ ПЛАТФОРМЫ ДЛЯ СТАРТАПА
-echo ==================================================
-echo.
 
 echo Вопрос 1: Какой темп роста нагрузки прогнозируется после запуска MVP?
 echo 1. Взрывной рост (нужны Managed Kubernetes, автоскейлинг и микросервисы)
@@ -39,7 +35,7 @@ if errorlevel==2 set /a score_selectel+=15
 if errorlevel==1 set /a score_yc+=15
 echo.
 
-echo --- Результаты оценки профиля проекта ---
+echo  Результаты оценки профиля проекта 
 echo Yandex Cloud:  %score_yc% баллов
 echo Selectel:      %score_selectel% баллов
 echo Timeweb Cloud: %score_timeweb% баллов
